@@ -1,0 +1,20 @@
+{
+  "name": "prova3bimweb",
+  "version": "1.0.0",
+  "description": "Desenvolver uma API BackEnd com **Node.js**, **Express**, **JWT** e persistência em **arquivo JSON**.   Implementar o  **CRUD de usuários** e autenticação baseada em token. Os teste deve ser feito utilizando **Thunder Client** nas respectivas rotas",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
